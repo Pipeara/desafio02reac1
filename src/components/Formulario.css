@@ -1,0 +1,37 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    border-radius: 30px;
+}
+
+.form-group {
+    margin: 10px auto;
+}
+
+.error-border {
+    border: 1.5px solid rgb(231, 26, 26); 
+  }
+
+.form-group input {
+    width: 30vw;
+}
+
+.form-group select {
+    width: 30vw;
+}
+
+.text-danger {
+    margin-bottom: 0;
+    font-size: 14px;
+    padding-bottom: 0;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 30vw;
+}
